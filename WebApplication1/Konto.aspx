@@ -119,7 +119,7 @@
                             </tr>
                             <tr>
                                 <td class="style3" align="center" colspan="3">
-                                    <asp:Button ID="btnsubmit" runat="server" OnClick="btnsubmit_Click" Text="Submit" />
+                                    <asp:Button ID="btnsubmit" runat="server" Text="Submit" />
                                 </td>
                             </tr>
                         </table>

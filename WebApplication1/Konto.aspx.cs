@@ -14,25 +14,25 @@ namespace WebApplication1
             if (IsPostBack)
             {
                 Validate();
-                textLabel();
+                if (Page.IsValid)
+                {
+                    textLabel();
+                }
+                else
+                {
+                    lblmsg.Text = "Fill up all the fields";
+                }
             }
         }
 
         protected void btnsubmit_Click(object sender, EventArgs e)
         {
-            if (Page.IsValid)
-            {
-                textLabel();
-            }
-            else
-            {
-                lblmsg.Text = "Fill up all the fields";
-            }
+
         }
 
         protected void textLabel()
         {
-                if (Page.IsValid)
+            if (Page.IsValid)
                 {
                     string nazwiskotxt = nazwisko.Text;
                     string imietxt = imie.Text;
