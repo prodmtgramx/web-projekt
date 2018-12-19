@@ -1,0 +1,43 @@
+.panel{
+    width: 80%;
+    position: relative;
+    height: 60px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    margin: 50px auto 50px auto;
+    border: 3px black solid;
+    padding-top: 25px;
+}
+
+.panelLabel{
+    font-size: 20px;
+    font-weight: bold;
+    color: #cccccc;
+    margin-right: 20px;
+    padding-top: 3px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.spaceDiv{
+    height: 100%;
+    width:30px;
+}
+
+.adsContainer{
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+    background-image: radial-gradient(burlywood, bisque);
+    border-radius: 20px;
+}
+
+.ad{
+    height: 150px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}

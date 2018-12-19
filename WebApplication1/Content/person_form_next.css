@@ -1,0 +1,48 @@
+.container {
+    border-radius: 5px;
+    background-color: #d8d8d8;
+    padding: 20px;
+}
+
+label {
+    display:block;
+}
+
+.btn {
+    background-color: blueviolet;
+    border: none;
+    height: 3em;
+    width: 8em;
+    display: block;
+}
+
+.btn:hover {
+    background-color: rgb(176, 114, 233);
+    cursor: pointer;
+}
+
+input {
+    background-color: rgb(243, 242, 242);
+    display: inline-block;
+    margin-bottom: 1.7%;
+    height: 1.5em;
+    width: 16em;
+    border: 1px solid gray;
+}
+
+input:required {
+    background-color: rgb(231, 235, 175);
+}
+
+input:focus {
+    background-color: white;
+}
+
+input:invalid {
+    outline-color: red;
+}
+
+p{
+    display: inline-block;
+    color: rgb(160, 153, 153)
+}
